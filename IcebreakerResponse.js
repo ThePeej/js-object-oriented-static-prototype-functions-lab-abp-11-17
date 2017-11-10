@@ -9,5 +9,5 @@ IcebreakerResponse.BatchCreate = function(emailArray) {
 
 }
 
-console.log(IcebreakerResponse)
+console.log(IcebreakerResponse())
 debugger;
