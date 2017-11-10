@@ -4,9 +4,6 @@ function IcebreakerResponse(email){
 
 IcebreakerResponse.BatchCreate = function(emailArray) {
   return emailArray.map(function(email) {
-    console.log(IcebreakerResponse(email))
-    debugger;
     return new IcebreakerResponse(email)
-    
   })
 }
